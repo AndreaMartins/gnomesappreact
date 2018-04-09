@@ -1,0 +1,99 @@
+.gencontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.goback {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.titlegnome {
+  margin: 2rem;
+  text-align: center;
+}
+
+.titlegnome h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.containergnome {
+  margin: 1rem;
+}
+
+.infognome {
+  margin: 2rem;
+  text-align: center;
+}
+
+.containergnomel__shape {
+  width: 32rem;
+  height: 32rem;
+  display: flex;
+  justify-content: center;
+  -webkit-shape-outside: circle(50% at 50% 50%) !important;
+  shape-outside: circle(50% at 50% 50% !important);
+  -webkit-clip-path: circle(50% at 50% 50%) !important;
+  clip-path: circle(50% at 50% 50%) !important;
+  background-color: #f7f7f7;
+  position: relative;
+  overflow: hidden;
+}
+
+.containergnomel__img {
+  height: 100%;
+  backface-visibility: hidden;
+  transition: all .5s;
+}
+
+.btn-inline {
+  border: none;
+  color: #eb2f64;
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.btn-inline span {
+  margin-left: 3px;
+}
+
+.btn-inline:hover {
+  color: #333;
+}
+
+.btn-inline:hover span {
+  margin-left: 8px;
+  transition: all .2s;
+}
+
+.btn-inline:focus {
+  outline: none;
+}
